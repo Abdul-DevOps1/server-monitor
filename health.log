@@ -1,0 +1,29 @@
+==== Server Health Report ====
+Wed Jun 17 09:30:56 AM PKT 2026
+
+CPU Usage:
+%Cpu(s):  1.1 us,  0.0 sy,  0.0 ni, 97.8 id,  1.1 wa,  0.0 hi,  0.0 si,  0.0 st 
+
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       1.9Gi        12Gi       384Mi       1.9Gi        13Gi
+Swap:          4.0Gi          0B       4.0Gi
+
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           1.6G  2.7M  1.6G   1% /run
+/dev/nvme0n1p2  233G   23G  199G  11% /
+tmpfs           7.7G   84M  7.6G   2% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+efivarfs        374K  201K  169K  55% /sys/firmware/efi/efivars
+/dev/nvme0n1p1  1.1G  6.2M  1.1G   1% /boot/efi
+tmpfs           1.6G  128K  1.6G   1% /run/user/1000
+
+Network Test:
+PING google.com (142.250.202.142) 56(84) bytes of data.
+64 bytes from pnfjra-al-in-f14.1e100.net (142.250.202.142): icmp_seq=1 ttl=119 time=428 ms
+64 bytes from pnfjra-al-in-f14.1e100.net (142.250.202.142): icmp_seq=2 ttl=119 time=415 ms
+
+--- google.com ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 415.366/421.505/427.645/6.139 ms
